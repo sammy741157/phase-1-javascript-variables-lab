@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2025-06-17T11:16:20.686Z",
+    "end": "2025-06-17T11:16:21.125Z",
+    "duration": 439
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:11:14)\n    at process.processImmediate (node:internal/timers:505:21)",
+        "message": "companyName is not defined"
+      }
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected 'const companyname = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n\\n' to match /const companyName/",
+        "showDiff": false,
+        "actual": "const companyname = 'Scuber';\nlet mostProfitableNeighborhood = 'Chelsea';\nlet companyCeo = 'Susan Smith';\n\n",
+        "stack": "AssertionError: Expected companyName to be a const: expected 'const companyname = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n\\n' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:15:21)\n    at process.processImmediate (node:internal/timers:505:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:11:14)\n    at process.processImmediate (node:internal/timers:505:21)",
+        "message": "companyName is not defined"
+      }
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected 'const companyname = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n\\n' to match /const companyName/",
+        "showDiff": false,
+        "actual": "const companyname = 'Scuber';\nlet mostProfitableNeighborhood = 'Chelsea';\nlet companyCeo = 'Susan Smith';\n\n",
+        "stack": "AssertionError: Expected companyName to be a const: expected 'const companyname = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n\\n' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:15:21)\n    at process.processImmediate (node:internal/timers:505:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
